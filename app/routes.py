@@ -22,6 +22,11 @@ def login():
 def example():
     return render_template('example.html')
 
-@app.route('/test')
+@app.route('/test', methods=['GET', 'POST'])
 def test():
-    return render_template('test.html')
+    form = LoginForm()
+    if form.validate_on_submit():
+        flash('Balance requested for address {}'.format(form.address.data))
+        return 'string'
+        # return redirect(url_for('index'))
+    return render_template('test.html', form=form)

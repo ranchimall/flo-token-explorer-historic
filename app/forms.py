@@ -4,4 +4,5 @@ from wtforms.validators import DataRequired
 
 class LoginForm(FlaskForm):
     address = StringField('FLO address', validators=[DataRequired()])
-    submit = SubmitField('Sign In')
+    submit = SubmitField('Search')
+
