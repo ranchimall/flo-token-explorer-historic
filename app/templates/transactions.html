@@ -18,36 +18,13 @@
         <div class="section section-buttons">
             <div class="container">
                 <div class="tim-title">
-                    <h2>RMT Balance</h2>
-                </div>
-                <div class="row">
-                    <div class="col-sm-3">
-                        <form action="" method="post" novalidate>
-                            <div class="form-group">
-                                <!--<input type="text" class="form-control" placeholder="Enter FLO address">-->
-                                {{ form.hidden_tag() }}
-                                {{ form.address(class="form-control", placeholder="Enter FLO address", length=100) }}
-                                {% for error in form.address.errors %}
-                                <span style="color: red;">[{{ error }}]</span>
-                                {% endfor %}
-                                {% if balance %}
-                                <div class="ml-auto mr-auto">
-                                    <br/>
-                                    <p>Balance {{balance}} RMT</p>
-                                </div>
-                                {% endif %}
-                            </div>
-                        </form>
-                    </div>
+                    <h2>Transactions</h2>
                 </div>
                 <!-- Start of tables  -->
                 <div class="content">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card card-plain">
-                                <div class="tim-title">
-                                    <h3>Latest Transactions</h3>
-                                </div>
                                 <div class="card-body">
                                     <div class="table-responsive">
                                         <table class="table">
@@ -80,41 +57,6 @@
                                                        class="nc-icon nc-alert-circle-i">
                                                     </a>
                                                 </td>
-                                            </tr>
-                                            {% endfor %}
-                                            </tbody>
-                                        </table>
-                                        <div class="col-md-6 ml-auto mr-auto text-center">
-                                            <btn class="btn btn-outline-default btn-round"><i class="nc-icon nc-paper"></i>
-                                                View all
-                                            </btn>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Table 2 -->
-                        <div class="col-md-12">
-                            <div class="card card-plain">
-                                <div class="tim-title">
-                                    <h3>Balances</h3>
-                                </div>
-                                <div class="card-body">
-                                    <div class="table-responsive">
-                                        <table class="table">
-                                            <thead class=" text-primary">
-                                            <th>
-                                                Address
-                                            </th>
-                                            <th>
-                                                Balance
-                                            </th>
-                                            </thead>
-                                            <tbody>
-                                            {% for item in balanceTable %}
-                                            <tr>
-                                                <td>{{item[0]}}</td>
-                                                <td>{{item[1]}}</td>
                                             </tr>
                                             {% endfor %}
                                             </tbody>

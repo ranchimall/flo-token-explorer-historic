@@ -33,7 +33,7 @@
                                 {% if balance %}
                                 <div class="ml-auto mr-auto">
                                     <br/>
-                                    <p>Balance {{balance}} RMT</p>
+                                    <p>Balance - {{balance}} RMT<a href={{url_for('transactions', address=form.address.data)}} class="btn btn-link btn-info">Related transactions</a></p>
                                 </div>
                                 {% endif %}
                             </div>
@@ -85,10 +85,11 @@
                                             </tbody>
                                         </table>
                                         <div class="col-md-6 ml-auto mr-auto text-center">
-                                            <btn class="btn btn-outline-default btn-round"><i
+                                            <a href="/transactions"> <btn class="btn btn-outline-default btn-round"><i
                                                     class="nc-icon nc-paper"></i>
                                                 View all
                                             </btn>
+                                                </a>
                                         </div>
                                     </div>
                                 </div>
