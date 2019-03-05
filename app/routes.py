@@ -4,7 +4,7 @@ from app import app
 from app.forms import SearchForm, BlankForm
 import sqlite3
 
-dblocation = '/home/vivek/Dev/RanchiMall/rmfzeTracking_testnet/tree.db'
+dblocation = '/home/vivek/Documents/Ranchimall/flo-token-tracking/tree.db'
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -63,3 +63,8 @@ def transactions():
     transactionHistoryTable = c.fetchall()
     conn.close()
     return render_template('transactions.html', transactionHistoryTable=transactionHistoryTable)
+
+@app.route('/test')
+def test():
+    return render_template('test.html')
+
