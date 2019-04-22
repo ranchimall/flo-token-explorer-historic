@@ -78,7 +78,7 @@
                                 {% if balance %}
                                 <div class="ml-auto mr-auto">
                                     <br/>
-                                    <p>Balance - {{balance}} RMT<a href={{token+'/transactions?address='+form.address.data}} class="btn btn-link btn-info">Related transactions</a></p>
+                                    <p>Balance - {{balance}} RMT<a href={{token+'/transactions?sourceFloAddress='+form.address.data+'&destFloAddress='+form.address.data}} class="btn btn-link btn-info">Related transactions</a></p>
                                 </div>
                                 {% endif %}
                             </div>
