@@ -66,14 +66,14 @@ def transactions(token):
         else:
             return 'Token doesn\'t exist'
         if sourceFloAddress and not destFloAddress:
-            c.execute('SELECT * FROM transactionHistory WHERE sourceFloAddress="{}" ORDER BY id DESC'.format(
+            c.execute('SELECT id, blockNumber, sourceFloAddress, destFloAddress, transferAmount, blockchainReference FROM transactionHistory WHERE sourceFloAddress="{}" ORDER BY id DESC'.format(
                 sourceFloAddress))
         if not sourceFloAddress and destFloAddress:
             c.execute(
-                'SELECT * FROM transactionHistory WHERE destFloAddress="{}" ORDER BY id DESC'.format(destFloAddress))
+                'SELECT id, blockNumber, sourceFloAddress, destFloAddress, transferAmount, blockchainReference FROM transactionHistory WHERE destFloAddress="{}" ORDER BY id DESC'.format(destFloAddress))
         if sourceFloAddress and destFloAddress:
             c.execute(
-                'SELECT * FROM transactionHistory WHERE sourceFloAddress="{}" OR destFloAddress="{}" ORDER BY id DESC'.format(
+                'SELECT id, blockNumber, sourceFloAddress, destFloAddress, transferAmount, blockchainReference FROM transactionHistory WHERE sourceFloAddress="{}" OR destFloAddress="{}" ORDER BY id DESC'.format(
                     sourceFloAddress, destFloAddress))
 
         transactionHistoryTable = c.fetchall()
