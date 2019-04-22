@@ -2,4 +2,4 @@
 __pycache__/
 *.pyc
 app/__pycache__/
-tokenexplorervenv/
+flo-token-explorer/
