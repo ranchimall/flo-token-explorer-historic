@@ -5,7 +5,7 @@ import sqlite3
 import json
 import os
 
-dbfolder = '/home/production/deployed/flo-token-tracking/tokens/'
+dbfolder = '/home/vivek/Desktop/flo-token-tracking-backup/flo-token-tracking'
 
 
 @app.route('/')
@@ -18,7 +18,7 @@ def index(token):
     if token is None:
         token = 'rmt'
     form = SearchForm()
-    dblocation = dbfolder + token + '.db'
+    dblocation = dbfolder + '/tokens/' +str(token) + '.db'
     if os.path.exists(dblocation):
         conn = sqlite3.connect(dblocation)
         c = conn.cursor()
@@ -57,7 +57,7 @@ def transactions(token):
     if token is None:
         token = 'rmt'
 
-    dblocation = dbfolder + token + '.db'
+    dblocation = dbfolder + '/tokens/' + str(token) + '.db'
 
     if None not in [sourceFloAddress, destFloAddress]:
         if os.path.exists(dblocation):
