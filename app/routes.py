@@ -5,7 +5,7 @@ import sqlite3
 import json
 import os
 
-dbfolder = '/home/vivek/Desktop/flo-token-tracking-backup/flo-token-tracking'
+dbfolder = '/home/production/deployed/flo-token-tracking'
 
 
 @app.route('/')

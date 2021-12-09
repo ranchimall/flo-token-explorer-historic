@@ -1,0 +1,403 @@
+-- Logs begin at Sat 2019-01-12 06:31:06 UTC, end at Mon 2019-08-19 11:37:45 UTC. --
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10903]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10903]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10917]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10917]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10929]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[10929]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:06:57 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[10940]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[10940]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[10953]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[10953]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:06:58 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11814]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11814]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11841]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11841]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11880]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11880]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11900]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[11900]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:09:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[11910]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[11910]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:09:21 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13174]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13174]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13189]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13189]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13202]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[13202]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:13:25 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[13215]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[13215]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[13227]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[13227]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:13:26 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org bash[13549]: /bin/bash: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org bash[13604]: /bin/bash: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:14:03 ranchimall1.duckdns.org bash[13622]: /bin/bash: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:14:03 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:14:04 ranchimall1.duckdns.org bash[13636]: /bin/bash: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:14:04 ranchimall1.duckdns.org bash[13647]: /bin/bash: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: No such file or directory
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:14:04 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15600]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15600]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15600]: from: too many arguments
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15600]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15600]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15623]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15623]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15623]: from: too many arguments
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15623]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:20:50 ranchimall1.duckdns.org bash[15623]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:20:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15646]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15646]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15646]: from: too many arguments
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15646]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15646]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15670]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15670]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15670]: from: too many arguments
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15670]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15670]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15697]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15697]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15697]: from: too many arguments
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15697]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:20:51 ranchimall1.duckdns.org bash[15697]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:20:51 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19638]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19638]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19638]: from: too many arguments
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19638]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19638]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19673]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19673]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19673]: from: too many arguments
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19673]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19673]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19695]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19695]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19695]: from: too many arguments
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19695]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:32:59 ranchimall1.duckdns.org bash[19695]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:32:59 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19716]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19716]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19716]: from: too many arguments
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19716]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19716]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19756]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19756]: import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19756]: from: too many arguments
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19756]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: syntax error near unexpected token `('
+Aug 19 11:33:00 ranchimall1.duckdns.org bash[19756]: /home/production/deployed/flo-token-explorer/py3/bin/gunicorn: line 10: `    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])'
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:00 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:33:18 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:18 ranchimall1.duckdns.org bash[19935]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:33:18 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:33:18 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org bash[19952]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org bash[19968]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org bash[19983]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:33:19 ranchimall1.duckdns.org bash[19997]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:33:19 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:33:20 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:36:41 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:41 ranchimall1.duckdns.org bash[21006]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:41 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:36:41 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org bash[21019]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org bash[21034]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org bash[21047]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:42 ranchimall1.duckdns.org bash[21061]: /bin/bash: /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=127/n/a
+Aug 19 11:36:42 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:43 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21110]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21110]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 1.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21122]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21122]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 2.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21136]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[21136]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:36:50 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 3.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[21149]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[21149]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 4.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Started FLO token explorer.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[21163]: flo-token-explorer.service: Failed to execute command: No such file or directory
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[21163]: flo-token-explorer.service: Failed at step EXEC spawning /home/production/deployed/flo-token-explorer/gunicorn: No such file or directory
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Main process exited, code=exited, status=203/EXEC
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Service hold-off time over, scheduling restart.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Scheduled restart job, restart counter is at 5.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Stopped FLO token explorer.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Start request repeated too quickly.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: flo-token-explorer.service: Failed with result 'exit-code'.
+Aug 19 11:36:51 ranchimall1.duckdns.org systemd[1]: Failed to start FLO token explorer.
